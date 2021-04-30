@@ -47,6 +47,14 @@
   font-family: 'Raleway';
 }
 
+.main-text {
+  font-size: 5.5rem;
+}
+
+.second-text {
+  font-size: 2rem;
+}
+
 .infopictures {
   font-family: 'Raleway';
 }
@@ -79,7 +87,18 @@ ul.social li:hover {
 }
 
 @media (max-width: 500px) {
+  .top-bar p {
+    font-size: 0.7rem;
+  }
   .main-info {
     background-attachment: scroll !important;
+  }
+
+  .main-text {
+    font-size: 3rem;
+  }
+
+  .second-text {
+    font-size: 1rem;
   }
 }
